@@ -1,0 +1,221 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Camera"=.\Camera.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "CommandSim"=.\CommandSim.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "DrawAircraft"=.\DrawAircraft.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "DrawingHook"=.\DrawingHook.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "HelloWorld"=.\HelloWorld.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "HotKey"=.\HotKey.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "KeySniffer"=.\KeySniffer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ManagePlugins"=.\ManagePlugins.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Navigation"=.\Navigation.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Planes"=.\Planes.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SDKExamples"=.\SDKExamples.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name CommandSim
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DrawingHook
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name HelloWorld
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name HotKey
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name KeySniffer
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ManagePlugins
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ShareData
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SimData
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name TimedProcessing
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Camera
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Navigation
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Planes
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ShareData"=.\ShareData.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SimData"=.\SimData.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "TimedProcessing"=.\TimedProcessing.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

@@ -1,0 +1,1394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		AC4E46BD09C2E173006B7E1B /* Build All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AC4E46BE09C2E191006B7E1B /* Build configuration list for PBXAggregateTarget "Build All" */;
+			buildPhases = (
+			);
+			buildSettings = {
+				PRODUCT_NAME = "Build All";
+			};
+			dependencies = (
+				AC4E475809C2E951006B7E1B /* PBXTargetDependency */,
+				AC4E475A09C2E956006B7E1B /* PBXTargetDependency */,
+				AC4E475C09C2E959006B7E1B /* PBXTargetDependency */,
+				AC4E475E09C2E95B006B7E1B /* PBXTargetDependency */,
+				AC4E46C609C2E201006B7E1B /* PBXTargetDependency */,
+				AC4E476009C2E95F006B7E1B /* PBXTargetDependency */,
+				AC4E476209C2E962006B7E1B /* PBXTargetDependency */,
+				AC4E476409C2E965006B7E1B /* PBXTargetDependency */,
+				AC4E476609C2E969006B7E1B /* PBXTargetDependency */,
+				AC4E476809C2E96B006B7E1B /* PBXTargetDependency */,
+				AC4E476A09C2E970006B7E1B /* PBXTargetDependency */,
+				AC4E476C09C2E977006B7E1B /* PBXTargetDependency */,
+			);
+			name = "Build All";
+			productName = "Build All";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		AC37D96909CD803B0078B0F1 /* Camera.c in Sources */ = {isa = PBXBuildFile; fileRef = AC37D96809CD803B0078B0F1 /* Camera.c */; };
+		AC4E46BB09C2E0EE006B7E1B /* HelloWorld.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4E46BA09C2E0EE006B7E1B /* HelloWorld.c */; };
+		AC4E477209C2E9B6006B7E1B /* CommandSim.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4E477009C2E9B6006B7E1B /* CommandSim.c */; };
+		AC4E477709C2E9C5006B7E1B /* AircraftUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC4E477309C2E9C5006B7E1B /* AircraftUtils.cpp */; };
+		AC4E477809C2E9C5006B7E1B /* DrawAircraft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC4E477409C2E9C5006B7E1B /* DrawAircraft.cpp */; };
+		AC4E477B09C2E9D4006B7E1B /* DrawingHook.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4E477909C2E9D4006B7E1B /* DrawingHook.c */; };
+		AC4E478209C2EAA0006B7E1B /* HotKey.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4E478109C2EAA0006B7E1B /* HotKey.c */; };
+		AC4E478409C2EAB8006B7E1B /* KeySniffer.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4E478309C2EAB8006B7E1B /* KeySniffer.c */; };
+		AC4E478609C2EAC6006B7E1B /* ManagePlugins.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4E478509C2EAC6006B7E1B /* ManagePlugins.c */; };
+		AC4E478C09C2EB2E006B7E1B /* Navigation.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4E478B09C2EB2E006B7E1B /* Navigation.c */; };
+		AC4E478E09C2EB48006B7E1B /* ShareData.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4E478D09C2EB48006B7E1B /* ShareData.c */; };
+		AC4E479009C2EB58006B7E1B /* SimData.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4E478F09C2EB58006B7E1B /* SimData.c */; };
+		AC4E479209C2EB65006B7E1B /* TimedProcessing.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4E479109C2EB65006B7E1B /* TimedProcessing.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		AC5066E609C1E57B00F755F6 /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Development;
+		};
+		AC5066E709C1E57B00F755F6 /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		AC4E46C509C2E201006B7E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D607B16109A5563100699BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D607B19809A556E400699BC3;
+			remoteInfo = HelloWorld;
+		};
+		AC4E475709C2E951006B7E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D607B16109A5563100699BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4E46FD09C2E7B4006B7E1B;
+			remoteInfo = Camera;
+		};
+		AC4E475909C2E956006B7E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D607B16109A5563100699BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4E470509C2E7E9006B7E1B;
+			remoteInfo = CommandSim;
+		};
+		AC4E475B09C2E959006B7E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D607B16109A5563100699BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4E470F09C2E811006B7E1B;
+			remoteInfo = DrawAircraft;
+		};
+		AC4E475D09C2E95B006B7E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D607B16109A5563100699BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4E471709C2E83C006B7E1B;
+			remoteInfo = DrawingHook;
+		};
+		AC4E475F09C2E95F006B7E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D607B16109A5563100699BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4E471F09C2E85C006B7E1B;
+			remoteInfo = HoKey;
+		};
+		AC4E476109C2E962006B7E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D607B16109A5563100699BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4E472709C2E88A006B7E1B;
+			remoteInfo = KeySniffer;
+		};
+		AC4E476309C2E965006B7E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D607B16109A5563100699BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4E472F09C2E8AE006B7E1B;
+			remoteInfo = ManagePlugins;
+		};
+		AC4E476509C2E969006B7E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D607B16109A5563100699BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4E473709C2E8DA006B7E1B;
+			remoteInfo = Navigation;
+		};
+		AC4E476709C2E96B006B7E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D607B16109A5563100699BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4E473F09C2E8F6006B7E1B;
+			remoteInfo = ShareData;
+		};
+		AC4E476909C2E970006B7E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D607B16109A5563100699BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4E474709C2E90E006B7E1B;
+			remoteInfo = SimData;
+		};
+		AC4E476B09C2E977006B7E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D607B16109A5563100699BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4E474F09C2E92A006B7E1B;
+			remoteInfo = TimedProcessing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC37D96809CD803B0078B0F1 /* Camera.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = Camera.c; path = ../../SampleCode/Camera.c; sourceTree = SOURCE_ROOT; };
+		AC4E46BA09C2E0EE006B7E1B /* HelloWorld.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = HelloWorld.c; path = ../../SampleCode/HelloWorld.c; sourceTree = "<group>"; };
+		AC4E470409C2E7B4006B7E1B /* Camera.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Camera.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4E470C09C2E7E9006B7E1B /* CommandSim.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = CommandSim.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4E471609C2E811006B7E1B /* DrawAircraft.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = DrawAircraft.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4E471E09C2E83C006B7E1B /* DrawingHook.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = DrawingHook.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4E472609C2E85C006B7E1B /* HoKey.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = HoKey.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4E472E09C2E88A006B7E1B /* KeySniffer.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = KeySniffer.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4E473609C2E8AE006B7E1B /* ManagePlugins.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ManagePlugins.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4E473E09C2E8DA006B7E1B /* Navigation.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Navigation.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4E474609C2E8F6006B7E1B /* ShareData.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ShareData.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4E474E09C2E90E006B7E1B /* SimData.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = SimData.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4E475609C2E92A006B7E1B /* TimedProcessing.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = TimedProcessing.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4E477009C2E9B6006B7E1B /* CommandSim.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = CommandSim.c; path = ../../SampleCode/CommandSim.c; sourceTree = "<group>"; };
+		AC4E477309C2E9C5006B7E1B /* AircraftUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AircraftUtils.cpp; path = ../../SampleCode/AircraftUtils.cpp; sourceTree = "<group>"; };
+		AC4E477409C2E9C5006B7E1B /* DrawAircraft.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DrawAircraft.cpp; path = ../../SampleCode/DrawAircraft.cpp; sourceTree = "<group>"; };
+		AC4E477909C2E9D4006B7E1B /* DrawingHook.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = DrawingHook.c; path = ../../SampleCode/DrawingHook.c; sourceTree = "<group>"; };
+		AC4E478109C2EAA0006B7E1B /* HotKey.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = HotKey.c; path = ../../SampleCode/HotKey.c; sourceTree = "<group>"; };
+		AC4E478309C2EAB8006B7E1B /* KeySniffer.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = KeySniffer.c; path = ../../SampleCode/KeySniffer.c; sourceTree = "<group>"; };
+		AC4E478509C2EAC6006B7E1B /* ManagePlugins.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ManagePlugins.c; path = ../../SampleCode/ManagePlugins.c; sourceTree = "<group>"; };
+		AC4E478B09C2EB2E006B7E1B /* Navigation.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = Navigation.c; path = ../../SampleCode/Navigation.c; sourceTree = "<group>"; };
+		AC4E478D09C2EB48006B7E1B /* ShareData.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ShareData.c; path = ../../SampleCode/ShareData.c; sourceTree = "<group>"; };
+		AC4E478F09C2EB58006B7E1B /* SimData.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = SimData.c; path = ../../SampleCode/SimData.c; sourceTree = "<group>"; };
+		AC4E479109C2EB65006B7E1B /* TimedProcessing.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = TimedProcessing.c; path = ../../SampleCode/TimedProcessing.c; sourceTree = "<group>"; };
+		D607B19909A556E400699BC3 /* HelloWorld.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = HelloWorld.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4E470009C2E7B4006B7E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E470809C2E7E9006B7E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E471209C2E811006B7E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E471A09C2E83C006B7E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E472209C2E85C006B7E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E472A09C2E88A006B7E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E473209C2E8AE006B7E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E473A09C2E8DA006B7E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E474209C2E8F6006B7E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E474A09C2E90E006B7E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E475209C2E92A006B7E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D607B19709A556E400699BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4E46B809C2E0B3006B7E1B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E46C809C2E371006B7E1B /* Camera */,
+				AC4E46C909C2E37E006B7E1B /* CommandSim */,
+				AC4E46CA09C2E390006B7E1B /* DrawAircraft */,
+				AC4E46CB09C2E411006B7E1B /* DrawingHook */,
+				AC4E46B909C2E0D2006B7E1B /* HelloWorld */,
+				AC4E46CC09C2E43E006B7E1B /* HotKey */,
+				AC4E46CD09C2E44A006B7E1B /* KeySniffer */,
+				AC4E46CE09C2E457006B7E1B /* ManagePlugins */,
+				AC4E46CF09C2E49A006B7E1B /* Navigation */,
+				AC4E46D009C2E4CC006B7E1B /* ShareData */,
+				AC4E46D109C2E4E0006B7E1B /* SimData */,
+				AC4E46D209C2E4ED006B7E1B /* TimedProcessing */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		AC4E46B909C2E0D2006B7E1B /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E46BA09C2E0EE006B7E1B /* HelloWorld.c */,
+			);
+			name = HelloWorld;
+			sourceTree = "<group>";
+		};
+		AC4E46C809C2E371006B7E1B /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				AC37D96809CD803B0078B0F1 /* Camera.c */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		AC4E46C909C2E37E006B7E1B /* CommandSim */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E477009C2E9B6006B7E1B /* CommandSim.c */,
+			);
+			name = CommandSim;
+			sourceTree = "<group>";
+		};
+		AC4E46CA09C2E390006B7E1B /* DrawAircraft */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E477309C2E9C5006B7E1B /* AircraftUtils.cpp */,
+				AC4E477409C2E9C5006B7E1B /* DrawAircraft.cpp */,
+			);
+			name = DrawAircraft;
+			sourceTree = "<group>";
+		};
+		AC4E46CB09C2E411006B7E1B /* DrawingHook */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E477909C2E9D4006B7E1B /* DrawingHook.c */,
+			);
+			name = DrawingHook;
+			sourceTree = "<group>";
+		};
+		AC4E46CC09C2E43E006B7E1B /* HotKey */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E478109C2EAA0006B7E1B /* HotKey.c */,
+			);
+			name = HotKey;
+			sourceTree = "<group>";
+		};
+		AC4E46CD09C2E44A006B7E1B /* KeySniffer */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E478309C2EAB8006B7E1B /* KeySniffer.c */,
+			);
+			name = KeySniffer;
+			sourceTree = "<group>";
+		};
+		AC4E46CE09C2E457006B7E1B /* ManagePlugins */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E478509C2EAC6006B7E1B /* ManagePlugins.c */,
+			);
+			name = ManagePlugins;
+			sourceTree = "<group>";
+		};
+		AC4E46CF09C2E49A006B7E1B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E478B09C2EB2E006B7E1B /* Navigation.c */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		AC4E46D009C2E4CC006B7E1B /* ShareData */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E478D09C2EB48006B7E1B /* ShareData.c */,
+			);
+			name = ShareData;
+			sourceTree = "<group>";
+		};
+		AC4E46D109C2E4E0006B7E1B /* SimData */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E478F09C2EB58006B7E1B /* SimData.c */,
+			);
+			name = SimData;
+			sourceTree = "<group>";
+		};
+		AC4E46D209C2E4ED006B7E1B /* TimedProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E479109C2EB65006B7E1B /* TimedProcessing.c */,
+			);
+			name = TimedProcessing;
+			sourceTree = "<group>";
+		};
+		D607B15F09A5563000699BC3 = {
+			isa = PBXGroup;
+			children = (
+				AC4E46B809C2E0B3006B7E1B /* Source */,
+				D607B19A09A556E400699BC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D607B19A09A556E400699BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4E470409C2E7B4006B7E1B /* Camera.xpl */,
+				AC4E470C09C2E7E9006B7E1B /* CommandSim.xpl */,
+				AC4E471609C2E811006B7E1B /* DrawAircraft.xpl */,
+				AC4E471E09C2E83C006B7E1B /* DrawingHook.xpl */,
+				D607B19909A556E400699BC3 /* HelloWorld.xpl */,
+				AC4E472609C2E85C006B7E1B /* HoKey.xpl */,
+				AC4E472E09C2E88A006B7E1B /* KeySniffer.xpl */,
+				AC4E473609C2E8AE006B7E1B /* ManagePlugins.xpl */,
+				AC4E473E09C2E8DA006B7E1B /* Navigation.xpl */,
+				AC4E474609C2E8F6006B7E1B /* ShareData.xpl */,
+				AC4E474E09C2E90E006B7E1B /* SimData.xpl */,
+				AC4E475609C2E92A006B7E1B /* TimedProcessing.xpl */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4E46FD09C2E7B4006B7E1B /* Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4E470109C2E7B4006B7E1B /* Build configuration list for PBXNativeTarget "Camera" */;
+			buildPhases = (
+				AC4E46FE09C2E7B4006B7E1B /* Sources */,
+				AC4E470009C2E7B4006B7E1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = StarterPlugin;
+				ZERO_LINK = YES;
+			};
+			dependencies = (
+			);
+			name = Camera;
+			productName = StarterPlugin;
+			productReference = AC4E470409C2E7B4006B7E1B /* Camera.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		AC4E470509C2E7E9006B7E1B /* CommandSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4E470909C2E7E9006B7E1B /* Build configuration list for PBXNativeTarget "CommandSim" */;
+			buildPhases = (
+				AC4E470609C2E7E9006B7E1B /* Sources */,
+				AC4E470809C2E7E9006B7E1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = StarterPlugin;
+				ZERO_LINK = YES;
+			};
+			dependencies = (
+			);
+			name = CommandSim;
+			productName = StarterPlugin;
+			productReference = AC4E470C09C2E7E9006B7E1B /* CommandSim.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		AC4E470F09C2E811006B7E1B /* DrawAircraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4E471309C2E811006B7E1B /* Build configuration list for PBXNativeTarget "DrawAircraft" */;
+			buildPhases = (
+				AC4E471009C2E811006B7E1B /* Sources */,
+				AC4E471209C2E811006B7E1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = StarterPlugin;
+				ZERO_LINK = YES;
+			};
+			dependencies = (
+			);
+			name = DrawAircraft;
+			productName = StarterPlugin;
+			productReference = AC4E471609C2E811006B7E1B /* DrawAircraft.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		AC4E471709C2E83C006B7E1B /* DrawingHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4E471B09C2E83C006B7E1B /* Build configuration list for PBXNativeTarget "DrawingHook" */;
+			buildPhases = (
+				AC4E471809C2E83C006B7E1B /* Sources */,
+				AC4E471A09C2E83C006B7E1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = StarterPlugin;
+				ZERO_LINK = YES;
+			};
+			dependencies = (
+			);
+			name = DrawingHook;
+			productName = StarterPlugin;
+			productReference = AC4E471E09C2E83C006B7E1B /* DrawingHook.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		AC4E471F09C2E85C006B7E1B /* HoKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4E472309C2E85C006B7E1B /* Build configuration list for PBXNativeTarget "HoKey" */;
+			buildPhases = (
+				AC4E472009C2E85C006B7E1B /* Sources */,
+				AC4E472209C2E85C006B7E1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = StarterPlugin;
+				ZERO_LINK = YES;
+			};
+			dependencies = (
+			);
+			name = HoKey;
+			productName = StarterPlugin;
+			productReference = AC4E472609C2E85C006B7E1B /* HoKey.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		AC4E472709C2E88A006B7E1B /* KeySniffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4E472B09C2E88A006B7E1B /* Build configuration list for PBXNativeTarget "KeySniffer" */;
+			buildPhases = (
+				AC4E472809C2E88A006B7E1B /* Sources */,
+				AC4E472A09C2E88A006B7E1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = StarterPlugin;
+				ZERO_LINK = YES;
+			};
+			dependencies = (
+			);
+			name = KeySniffer;
+			productName = StarterPlugin;
+			productReference = AC4E472E09C2E88A006B7E1B /* KeySniffer.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		AC4E472F09C2E8AE006B7E1B /* ManagePlugins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4E473309C2E8AE006B7E1B /* Build configuration list for PBXNativeTarget "ManagePlugins" */;
+			buildPhases = (
+				AC4E473009C2E8AE006B7E1B /* Sources */,
+				AC4E473209C2E8AE006B7E1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = StarterPlugin;
+				ZERO_LINK = YES;
+			};
+			dependencies = (
+			);
+			name = ManagePlugins;
+			productName = StarterPlugin;
+			productReference = AC4E473609C2E8AE006B7E1B /* ManagePlugins.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		AC4E473709C2E8DA006B7E1B /* Navigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4E473B09C2E8DA006B7E1B /* Build configuration list for PBXNativeTarget "Navigation" */;
+			buildPhases = (
+				AC4E473809C2E8DA006B7E1B /* Sources */,
+				AC4E473A09C2E8DA006B7E1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = StarterPlugin;
+				ZERO_LINK = YES;
+			};
+			dependencies = (
+			);
+			name = Navigation;
+			productName = StarterPlugin;
+			productReference = AC4E473E09C2E8DA006B7E1B /* Navigation.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		AC4E473F09C2E8F6006B7E1B /* ShareData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4E474309C2E8F6006B7E1B /* Build configuration list for PBXNativeTarget "ShareData" */;
+			buildPhases = (
+				AC4E474009C2E8F6006B7E1B /* Sources */,
+				AC4E474209C2E8F6006B7E1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = StarterPlugin;
+				ZERO_LINK = YES;
+			};
+			dependencies = (
+			);
+			name = ShareData;
+			productName = StarterPlugin;
+			productReference = AC4E474609C2E8F6006B7E1B /* ShareData.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		AC4E474709C2E90E006B7E1B /* SimData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4E474B09C2E90E006B7E1B /* Build configuration list for PBXNativeTarget "SimData" */;
+			buildPhases = (
+				AC4E474809C2E90E006B7E1B /* Sources */,
+				AC4E474A09C2E90E006B7E1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = StarterPlugin;
+				ZERO_LINK = YES;
+			};
+			dependencies = (
+			);
+			name = SimData;
+			productName = StarterPlugin;
+			productReference = AC4E474E09C2E90E006B7E1B /* SimData.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		AC4E474F09C2E92A006B7E1B /* TimedProcessing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4E475309C2E92A006B7E1B /* Build configuration list for PBXNativeTarget "TimedProcessing" */;
+			buildPhases = (
+				AC4E475009C2E92A006B7E1B /* Sources */,
+				AC4E475209C2E92A006B7E1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = StarterPlugin;
+				ZERO_LINK = YES;
+			};
+			dependencies = (
+			);
+			name = TimedProcessing;
+			productName = StarterPlugin;
+			productReference = AC4E475609C2E92A006B7E1B /* TimedProcessing.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		D607B19809A556E400699BC3 /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D607B19B09A556E400699BC3 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				D607B19609A556E400699BC3 /* Sources */,
+				D607B19709A556E400699BC3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = StarterPlugin;
+				ZERO_LINK = YES;
+			};
+			dependencies = (
+			);
+			name = HelloWorld;
+			productName = StarterPlugin;
+			productReference = D607B19909A556E400699BC3 /* HelloWorld.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D607B16109A5563100699BC3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D607B16209A5563100699BC3 /* Build configuration list for PBXProject "SDKExamples" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				AC5066E609C1E57B00F755F6 /* Development */,
+				AC5066E709C1E57B00F755F6 /* Deployment */,
+			);
+			hasScannedForEncodings = 0;
+			mainGroup = D607B15F09A5563000699BC3;
+			productRefGroup = D607B19A09A556E400699BC3 /* Products */;
+			projectDirPath = "";
+			targets = (
+				AC4E46BD09C2E173006B7E1B /* Build All */,
+				AC4E46FD09C2E7B4006B7E1B /* Camera */,
+				AC4E470509C2E7E9006B7E1B /* CommandSim */,
+				AC4E470F09C2E811006B7E1B /* DrawAircraft */,
+				AC4E471709C2E83C006B7E1B /* DrawingHook */,
+				D607B19809A556E400699BC3 /* HelloWorld */,
+				AC4E471F09C2E85C006B7E1B /* HoKey */,
+				AC4E472709C2E88A006B7E1B /* KeySniffer */,
+				AC4E472F09C2E8AE006B7E1B /* ManagePlugins */,
+				AC4E473709C2E8DA006B7E1B /* Navigation */,
+				AC4E473F09C2E8F6006B7E1B /* ShareData */,
+				AC4E474709C2E90E006B7E1B /* SimData */,
+				AC4E474F09C2E92A006B7E1B /* TimedProcessing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4E46FE09C2E7B4006B7E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC37D96909CD803B0078B0F1 /* Camera.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E470609C2E7E9006B7E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4E477209C2E9B6006B7E1B /* CommandSim.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E471009C2E811006B7E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4E477709C2E9C5006B7E1B /* AircraftUtils.cpp in Sources */,
+				AC4E477809C2E9C5006B7E1B /* DrawAircraft.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E471809C2E83C006B7E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4E477B09C2E9D4006B7E1B /* DrawingHook.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E472009C2E85C006B7E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4E478209C2EAA0006B7E1B /* HotKey.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E472809C2E88A006B7E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4E478409C2EAB8006B7E1B /* KeySniffer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E473009C2E8AE006B7E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4E478609C2EAC6006B7E1B /* ManagePlugins.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E473809C2E8DA006B7E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4E478C09C2EB2E006B7E1B /* Navigation.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E474009C2E8F6006B7E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4E478E09C2EB48006B7E1B /* ShareData.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E474809C2E90E006B7E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4E479009C2EB58006B7E1B /* SimData.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4E475009C2E92A006B7E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4E479209C2EB65006B7E1B /* TimedProcessing.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D607B19609A556E400699BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4E46BB09C2E0EE006B7E1B /* HelloWorld.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC4E46C609C2E201006B7E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D607B19809A556E400699BC3 /* HelloWorld */;
+			targetProxy = AC4E46C509C2E201006B7E1B /* PBXContainerItemProxy */;
+		};
+		AC4E475809C2E951006B7E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4E46FD09C2E7B4006B7E1B /* Camera */;
+			targetProxy = AC4E475709C2E951006B7E1B /* PBXContainerItemProxy */;
+		};
+		AC4E475A09C2E956006B7E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4E470509C2E7E9006B7E1B /* CommandSim */;
+			targetProxy = AC4E475909C2E956006B7E1B /* PBXContainerItemProxy */;
+		};
+		AC4E475C09C2E959006B7E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4E470F09C2E811006B7E1B /* DrawAircraft */;
+			targetProxy = AC4E475B09C2E959006B7E1B /* PBXContainerItemProxy */;
+		};
+		AC4E475E09C2E95B006B7E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4E471709C2E83C006B7E1B /* DrawingHook */;
+			targetProxy = AC4E475D09C2E95B006B7E1B /* PBXContainerItemProxy */;
+		};
+		AC4E476009C2E95F006B7E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4E471F09C2E85C006B7E1B /* HoKey */;
+			targetProxy = AC4E475F09C2E95F006B7E1B /* PBXContainerItemProxy */;
+		};
+		AC4E476209C2E962006B7E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4E472709C2E88A006B7E1B /* KeySniffer */;
+			targetProxy = AC4E476109C2E962006B7E1B /* PBXContainerItemProxy */;
+		};
+		AC4E476409C2E965006B7E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4E472F09C2E8AE006B7E1B /* ManagePlugins */;
+			targetProxy = AC4E476309C2E965006B7E1B /* PBXContainerItemProxy */;
+		};
+		AC4E476609C2E969006B7E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4E473709C2E8DA006B7E1B /* Navigation */;
+			targetProxy = AC4E476509C2E969006B7E1B /* PBXContainerItemProxy */;
+		};
+		AC4E476809C2E96B006B7E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4E473F09C2E8F6006B7E1B /* ShareData */;
+			targetProxy = AC4E476709C2E96B006B7E1B /* PBXContainerItemProxy */;
+		};
+		AC4E476A09C2E970006B7E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4E474709C2E90E006B7E1B /* SimData */;
+			targetProxy = AC4E476909C2E970006B7E1B /* PBXContainerItemProxy */;
+		};
+		AC4E476C09C2E977006B7E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4E474F09C2E92A006B7E1B /* TimedProcessing */;
+			targetProxy = AC4E476B09C2E977006B7E1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC4E46BF09C2E191006B7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build All";
+			};
+			name = Debug;
+		};
+		AC4E46C009C2E191006B7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "Build All";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		AC4E470209C2E7B4006B7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/CHeaders/Widgets",
+					"$(XPSDK_ROOT)/CHeaders/XPLM",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Debug;
+		};
+		AC4E470309C2E7B4006B7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Release;
+		};
+		AC4E470A09C2E7E9006B7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Debug;
+		};
+		AC4E470B09C2E7E9006B7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Release;
+		};
+		AC4E471409C2E811006B7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Debug;
+		};
+		AC4E471509C2E811006B7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Release;
+		};
+		AC4E471C09C2E83C006B7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Debug;
+		};
+		AC4E471D09C2E83C006B7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Release;
+		};
+		AC4E472409C2E85C006B7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Debug;
+		};
+		AC4E472509C2E85C006B7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Release;
+		};
+		AC4E472C09C2E88A006B7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Debug;
+		};
+		AC4E472D09C2E88A006B7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Release;
+		};
+		AC4E473409C2E8AE006B7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Debug;
+		};
+		AC4E473509C2E8AE006B7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Release;
+		};
+		AC4E473C09C2E8DA006B7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Debug;
+		};
+		AC4E473D09C2E8DA006B7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Release;
+		};
+		AC4E474409C2E8F6006B7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Debug;
+		};
+		AC4E474509C2E8F6006B7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Release;
+		};
+		AC4E474C09C2E90E006B7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Debug;
+		};
+		AC4E474D09C2E90E006B7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Release;
+		};
+		AC4E475409C2E92A006B7E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Debug;
+		};
+		AC4E475509C2E92A006B7E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Release;
+		};
+		D607B16309A5563100699BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = xpl;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"APL=1",
+					"IBM=0",
+					"LIN=0",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/CHeaders/Widgets",
+					"$(XPSDK_ROOT)/CHeaders/XPLM",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-flat_namespace",
+					"-undefined",
+					warning,
+				);
+				PRODUCT_NAME = "${TARGET_NAME}";
+				XPSDK_ROOT = ../SDK;
+			};
+			name = Debug;
+		};
+		D607B16409A5563100699BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				EXECUTABLE_EXTENSION = xpl;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"APL=1",
+					"IBM=0",
+					"LIN=0",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/CHeaders/Widgets",
+					"$(XPSDK_ROOT)/CHeaders/XPLM",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-flat_namespace",
+					"-undefined",
+					warning,
+				);
+				PRODUCT_NAME = "${TARGET_NAME}";
+				XPSDK_ROOT = ../SDK;
+			};
+			name = Release;
+		};
+		D607B19C09A556E400699BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Debug;
+		};
+		D607B19D09A556E400699BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				XPSDK_ROOT = ../../../SDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4E46BE09C2E191006B7E1B /* Build configuration list for PBXAggregateTarget "Build All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4E46BF09C2E191006B7E1B /* Debug */,
+				AC4E46C009C2E191006B7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4E470109C2E7B4006B7E1B /* Build configuration list for PBXNativeTarget "Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4E470209C2E7B4006B7E1B /* Debug */,
+				AC4E470309C2E7B4006B7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4E470909C2E7E9006B7E1B /* Build configuration list for PBXNativeTarget "CommandSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4E470A09C2E7E9006B7E1B /* Debug */,
+				AC4E470B09C2E7E9006B7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4E471309C2E811006B7E1B /* Build configuration list for PBXNativeTarget "DrawAircraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4E471409C2E811006B7E1B /* Debug */,
+				AC4E471509C2E811006B7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4E471B09C2E83C006B7E1B /* Build configuration list for PBXNativeTarget "DrawingHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4E471C09C2E83C006B7E1B /* Debug */,
+				AC4E471D09C2E83C006B7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4E472309C2E85C006B7E1B /* Build configuration list for PBXNativeTarget "HoKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4E472409C2E85C006B7E1B /* Debug */,
+				AC4E472509C2E85C006B7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4E472B09C2E88A006B7E1B /* Build configuration list for PBXNativeTarget "KeySniffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4E472C09C2E88A006B7E1B /* Debug */,
+				AC4E472D09C2E88A006B7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4E473309C2E8AE006B7E1B /* Build configuration list for PBXNativeTarget "ManagePlugins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4E473409C2E8AE006B7E1B /* Debug */,
+				AC4E473509C2E8AE006B7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4E473B09C2E8DA006B7E1B /* Build configuration list for PBXNativeTarget "Navigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4E473C09C2E8DA006B7E1B /* Debug */,
+				AC4E473D09C2E8DA006B7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4E474309C2E8F6006B7E1B /* Build configuration list for PBXNativeTarget "ShareData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4E474409C2E8F6006B7E1B /* Debug */,
+				AC4E474509C2E8F6006B7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4E474B09C2E90E006B7E1B /* Build configuration list for PBXNativeTarget "SimData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4E474C09C2E90E006B7E1B /* Debug */,
+				AC4E474D09C2E90E006B7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4E475309C2E92A006B7E1B /* Build configuration list for PBXNativeTarget "TimedProcessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4E475409C2E92A006B7E1B /* Debug */,
+				AC4E475509C2E92A006B7E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D607B16209A5563100699BC3 /* Build configuration list for PBXProject "SDKExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D607B16309A5563100699BC3 /* Debug */,
+				D607B16409A5563100699BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D607B19B09A556E400699BC3 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D607B19C09A556E400699BC3 /* Debug */,
+				D607B19D09A556E400699BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D607B16109A5563100699BC3 /* Project object */;
+}

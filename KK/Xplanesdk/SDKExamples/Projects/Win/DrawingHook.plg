@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DrawingHook - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\SANDYB~1\LOCALS~1\Temp\RSPDB.tmp" with contents
+[
+/nologo /Zp4 /MDd /GX /Z7 /Od /I "..\..\..\SDK\CHeaders\XPLM" /I "..\..\..\SDK\CHeaders\Widgets" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SIMDATA_EXPORTS" /D IBM=1 /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\XPSDKSetup\SDKExamples\SampleCode\DrawingHook.c"
+"D:\XPSDKSetup\SDKExamples\SampleCode\DrawingHookWin.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SANDYB~1\LOCALS~1\Temp\RSPDB.tmp" 
+Creating temporary file "C:\DOCUME~1\SANDYB~1\LOCALS~1\Temp\RSPDC.tmp" with contents
+[
+Opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /pdb:none /debug /machine:I386 /out:"Debug/Plugins/DrawingHook.xpl" /implib:"Debug/DrawingHook.lib" 
+.\Debug\DrawingHook.obj
+.\Debug\DrawingHookWin.obj
+..\..\..\SDK\Libraries\Win\XPWidgets.lib
+..\..\..\SDK\Libraries\Win\XPLM.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\SANDYB~1\LOCALS~1\Temp\RSPDC.tmp"
+<h3>Output Window</h3>
+Compiling...
+DrawingHook.c
+Generating Code...
+Compiling...
+DrawingHookWin.cpp
+Generating Code...
+Linking...
+   Creating library Debug/DrawingHook.lib and object Debug/DrawingHook.exp
+
+
+
+<h3>Results</h3>
+DrawingHook.xpl - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
